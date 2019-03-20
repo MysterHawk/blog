@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logs on Ducci Personal blog</title>
+    <link>https://blog.gagliarducci.it/categories/logs/</link>
+    <description>Recent content in Logs on Ducci Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Mar 2019 11:47:33 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.gagliarducci.it/categories/logs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First entry in the diary</title>
+      <link>https://blog.gagliarducci.it/posts/my-first-post/</link>
+      <pubDate>Wed, 20 Mar 2019 11:47:33 +0100</pubDate>
+      
+      <guid>https://blog.gagliarducci.it/posts/my-first-post/</guid>
+      <description>So, what I have to do today?
+ Follow Analisi 1 lecture ✅ Follow Architettura degli elaboratori lecture  What happend that I didn&amp;rsquo;t expect:
+ Election of the rappresentatives of my section of University ✅  I had to vote which people has to manage the place   What will I do on the job:
+ Configurate the smartphone of a Co-Worker  </description>
+    </item>
+    
+  </channel>
+</rss>

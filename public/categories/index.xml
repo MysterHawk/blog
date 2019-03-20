@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ducci Personal blog</title>
+    <link>https://blog.gagliarducci.it/categories/</link>
+    <description>Recent content in Categories on Ducci Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://blog.gagliarducci.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daily</title>
+      <link>https://blog.gagliarducci.it/categories/daily/</link>
+      <pubDate>Wed, 20 Mar 2019 11:47:33 +0100</pubDate>
+      
+      <guid>https://blog.gagliarducci.it/categories/daily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dairy</title>
+      <link>https://blog.gagliarducci.it/categories/dairy/</link>
+      <pubDate>Wed, 20 Mar 2019 11:47:33 +0100</pubDate>
+      
+      <guid>https://blog.gagliarducci.it/categories/dairy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logs</title>
+      <link>https://blog.gagliarducci.it/categories/logs/</link>
+      <pubDate>Wed, 20 Mar 2019 11:47:33 +0100</pubDate>
+      
+      <guid>https://blog.gagliarducci.it/categories/logs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
