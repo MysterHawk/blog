@@ -6,21 +6,36 @@
     <description>Recent content on Ducci Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Mar 2019 11:47:33 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 22:34:00 +0100</lastBuildDate>
     
 	<atom:link href="https://blog.gagliarducci.it/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>A March day</title>
+      <link>https://blog.gagliarducci.it/diary/21-03-2019/</link>
+      <pubDate>Thu, 21 Mar 2019 22:34:00 +0100</pubDate>
+      
+      <guid>https://blog.gagliarducci.it/diary/21-03-2019/</guid>
+      <description>What I did today?  Follow laboratori of Architettura degli elaboratori ✔️
+ Crypt my USB- Key ✔️
+ I still have to figure out, how make it work with Windows Tho, for now it works only on Linux
+ dd bs=4K if=/dev/urandom of=/dev/sdX1
+ slap that usb, It can conteins so much random data
+    cryptsetup -h sha256 -c aes-xts-plain -s 256 luksFormat /dev/sdX1
+ lets encrypt the Usb</description>
+    </item>
+    
+    <item>
       <title>First entry in the diary</title>
-      <link>https://blog.gagliarducci.it/posts/my-first-post/</link>
+      <link>https://blog.gagliarducci.it/diary/20-03-2019/</link>
       <pubDate>Wed, 20 Mar 2019 11:47:33 +0100</pubDate>
       
-      <guid>https://blog.gagliarducci.it/posts/my-first-post/</guid>
+      <guid>https://blog.gagliarducci.it/diary/20-03-2019/</guid>
       <description>So, what I have to do today?
- Follow Analisi 1 lecture ✅ Follow Architettura degli elaboratori lecture  What happend that I didn&amp;rsquo;t expect:
- Election of the rappresentatives of my section of University ✅  I had to vote which people has to manage the place   What will I do on the job:
- Configurate the smartphone of a Co-Worker  </description>
+Follow Analisi 1 lecture Follow Architettura degli elaboratori lecture  What happend that I didn&amp;rsquo;t expect:
+Election of the rappresentatives of my section of University  I had to vote which people has to manage the place   What will I do on the job:
+Configurate a lot of smartphone for some co-workers Extraction of data for clients  When I was returning home:</description>
     </item>
     
   </channel>

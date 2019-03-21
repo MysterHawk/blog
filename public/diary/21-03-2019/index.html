@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A March day // Ducci Personal blog</title>
+
+        <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+        <meta property="og:title" content="A March day" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://blog.gagliarducci.it/diary/21-03-2019/" />
+    
+
+    <link href="" rel="alternate" type="application/rss+xml" title="Ducci Personal blog" />
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <link href="https://blog.gagliarducci.it/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+    <link href="https://blog.gagliarducci.it/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://blog.gagliarducci.it/css/style.css">
+
+    <meta name="generator" content="Hugo 0.54.0" />
+</head>
+
+
+<body>
+<div id="container">
+    <header id="header">
+    <div id="header-outer" class="outer">
+        <div id="header-inner" class="inner">
+            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+            <a id="logo" class="logo-text" href="https://blog.gagliarducci.it/">Ducci Personal blog</a>
+            <nav id="main-nav">
+                
+            </nav>
+            <nav id="sub-nav">
+                <div id="search-form-wrap">
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <section id="main" class="outer">
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        <header class="article-header">
+            <h1 class="article-title" itemprop="name">A March day</h1>
+        </header>
+        
+        <div class="article-meta">
+            <a href="/diary/21-03-2019/" class="article-date">
+                <time datetime='2019-03-21T22:34:00.000&#43;01:00' itemprop="datePublished">2019-03-21</time>
+            </a>
+            
+            
+            <div class="post-categories">
+                <div class="article-category">
+                    
+                    
+                    <a class="article-category-link" href="https://blog.gagliarducci.it//categories/dairy">Dairy</a>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            
+
+<h1 id="what-i-did-today">What I did today?</h1>
+
+<ul>
+<li><p>Follow laboratori of Architettura degli elaboratori ✔️</p></li>
+
+<li><p>Crypt my USB- Key ✔️</p>
+
+<ul>
+<li><p>I still have to figure out, how make it work with Windows Tho, for now it works only on Linux</p></li>
+
+<li><p><code>dd bs=4K if=/dev/urandom of=/dev/sdX1</code></p></li>
+
+<li><p><em>slap that usb,</em> It can conteins so much random data</p></li>
+</ul></li>
+</ul>
+
+<p><img src="/slapcar.png" alt="slap_car_meme" /></p>
+
+<ul>
+<li><p><code>cryptsetup -h sha256 -c aes-xts-plain -s 256 luksFormat /dev/sdX1</code></p></li>
+
+<li><p><em>lets encrypt the Usb</em></p></li>
+
+<li><p><code>mkfs.vfat  -F  32  /dev/mapper/private</code></p></li>
+
+<li><p>Probably it doesnt hurt for compatible reasons to format it in FAT32 but I could be wrong</p></li>
+</ul>
+
+<h1 id="what-i-have-done-on-the-job">What I have done on the job?</h1>
+
+<ul>
+<li><p>Finish a 1000 line PHP script ✔️</p>
+
+<ul>
+<li><p>Fixed some bugs ✔️</p></li>
+
+<li><p>Comment it ✔️</p></li>
+
+<li><p>Commit it on Git ✔️</p></li>
+</ul></li>
+
+<li><p>Change a cartdrige of the company Printer</p>
+
+<ul>
+<li>⚠️ Wash your hands after you will do that and DO NOT inhale the &ldquo;dust&rdquo; that come from it</li>
+</ul></li>
+
+<li><p>Additional configuration on a SmartPhone of a Co-Worker</p></li>
+</ul>
+
+<p><strong>Working time</strong> (<strong>14:30</strong> - <strong>18:30</strong> [5H])</p>
+
+<h1 id="and-after-that-in-the-evening">And after that? In The evening?</h1>
+
+<ul>
+<li><p>Write this daily log ✔️</p></li>
+
+<li><p>Installed at first <strong>f.lux</strong> on <strong>MX Linux</strong> and after <strong>RedShift</strong> ✔️</p>
+
+<ul>
+<li><p><code>sudo apt install fluxgui</code></p></li>
+
+<li><p><code>sudo apt remove fluxgui</code></p></li>
+
+<li><p><code>sudo apt install redshift-gtk</code></p></li>
+
+<li><p>I had to install also <strong>geoclue-2.0</strong>, if not It wouldnt work ✔️</p>
+
+<ul>
+<li><p>because It could get the position (longitude/latitude)</p></li>
+
+<li><p><code>sudo apt install geoclue-2.0</code></p></li>
+</ul></li>
+</ul></li>
+
+<li><p>Find a good Markdown editor ✔️</p>
+
+<ul>
+<li><p>Settled for <a href="https://marktext.github.io/website/"><strong>MarkText</strong></a></p></li>
+
+<li><p>Downloaded it and given the permission of execution</p>
+
+<ul>
+<li><p><code>chmod +x marktext-0.13.65-x86_64.AppImage</code></p></li>
+
+<li><p>shame that I didn&rsquo;t find a repo for it, &lsquo;cause is a good app</p></li>
+</ul></li>
+</ul></li>
+</ul>
+
+        </div>
+
+        
+        
+        <div class="article-toc" >
+            <h3>Contents</h3>
+            <nav id="TableOfContents">
+<ul>
+<li><a href="#what-i-did-today">What I did today?</a></li>
+<li><a href="#what-i-have-done-on-the-job">What I have done on the job?</a></li>
+<li><a href="#and-after-that-in-the-evening">And after that? In The evening?</a></li>
+</ul>
+</nav>
+        </div>
+        
+        
+
+        
+
+
+        
+        <footer class="article-footer">
+            <ul class="article-tag-list">
+                
+                <li class="article-tag-list-item">
+                    <a class="article-tag-list-link" href="https://blog.gagliarducci.it//tags/dairy">Dairy
+                    </a>
+                </li>
+                
+                <li class="article-tag-list-item">
+                    <a class="article-tag-list-link" href="https://blog.gagliarducci.it//tags/logs">Logs
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+    </div>
+    <nav id="article-nav">
+    
+    
+    <a href="/diary/20-03-2019/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">First entry in the diary&nbsp;<span>&gt;</span></div>
+    </a>
+    
+</nav>
+
+</article>
+
+        
+    </section>
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'ducciblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2019 Ducci Personal blog
+            <br />
+            Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a>
+        </div>
+    </div>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    <script>
+        document.getElementById('main-nav-toggle').addEventListener('click', function () {
+            var header = document.getElementById('header');
+            if (header.classList.contains('mobile-on')) {
+                header.classList.remove('mobile-on');
+            } else {
+                header.classList.add('mobile-on');
+            }
+        });
+    </script>
+</footer>
+
+</div>
+</body>
+</html>
