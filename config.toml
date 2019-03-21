@@ -2,5 +2,5 @@ languageCode = "en-us"
 title = "Ducci Personal blog"
 baseurl = "https://blog.gagliarducci.it/"
 theme = "hugo-theme-minos"
-
+disqusShortname = "ducciblog"
 enableEmoji= true
