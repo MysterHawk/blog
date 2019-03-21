@@ -4,23 +4,36 @@ title = "First entry in the diary"
 Tags = ["Dairy", "Daily", "Logs"]
 Description = ""
 menu = ""
-Categories = ["Dairy","Daily", "Logs"]
+Categories = ["Dairy"]
 
 +++
 
 So, what I have to do **today**?
 
-* Follow Analisi 1 lecture  :white_check_mark:
-* Follow Architettura degli elaboratori lecture
+1. [x] Follow Analisi 1 lecture
+2. [x] Follow Architettura degli elaboratori lecture 
+
+------------
 
 What happend that **I didn't expect**:
 
-* Election of the rappresentatives of my section of University  :white_check_mark:
-  - I had to vote which people has to manage the place
+1. [x] Election of the rappresentatives of my section of University
+	- I had to vote which people has to manage the place
+
+-------------
 
 What will I do **on the job**:
 
-* Configurate the smartphone of a Co-Worker
+1. [x] Configurate a lot of smartphone for some co-workers 
+2. [x] Extraction of data for clients
+
+-------------
+When I was **returning home**:
+
+1. [x] Buy 2x bottle of Milk (request given by Sister and grandmother) 
+2. [x] Close with key the basement of my house (request given by papa) 
+3. [x] Recovered a package from Spain to the cafe next to my house
+	- It contained a 2x tyre and 2x inner tubes for bicycle
 
 
  
