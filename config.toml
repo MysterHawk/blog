@@ -1,0 +1,4 @@
+baseURL = "https://ducci.projects.rocks/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-theme-minos"

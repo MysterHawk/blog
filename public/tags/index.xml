@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My New Hugo Site</title>
+    <link>https://ducci.projects.rocks/tags/</link>
+    <description>Recent content in Tags on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Mar 2019 22:34:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://ducci.projects.rocks/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dairy</title>
+      <link>https://ducci.projects.rocks/tags/dairy/</link>
+      <pubDate>Thu, 21 Mar 2019 22:34:00 +0100</pubDate>
+      
+      <guid>https://ducci.projects.rocks/tags/dairy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logs</title>
+      <link>https://ducci.projects.rocks/tags/logs/</link>
+      <pubDate>Thu, 21 Mar 2019 22:34:00 +0100</pubDate>
+      
+      <guid>https://ducci.projects.rocks/tags/logs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
